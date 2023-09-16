@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-    --green: #EB5352;
+    --green: #45B3E0;
 }
 
 ::-webkit-scrollbar {
@@ -121,7 +121,7 @@ main {
 }
 
 .galleries::-webkit-scrollbar-thumb {
-    background-color: #eb525228;
+    background-color: #45B3E028;
     border-radius: 9999px;
 }
 
@@ -129,9 +129,9 @@ main {
 .galleries img {
     width: 100%;
     max-width: 200px;
-    margin: 10px 10px;
+    margin: 10px 15px;
     border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); */
 }
 
 .galleries img:first {
